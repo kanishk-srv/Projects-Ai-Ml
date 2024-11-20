@@ -5,8 +5,7 @@ import numpy as np
 import tensorflow as tf
 # from keras.models import load_model
 # Specify the path to your saved model file
-# model_path = "D:/CODING/ML/Projects-Ai-Ml/Handwritten Recognisation/Handwritten_Recognisation.keras"
-model_path = "D:/CODING/ML/digit-recognition/Digi_recognition.keras" #sourabhs model
+model_path = "C:/vs code/Data Science/myNotebooks/Projects-Ai-Ml/Handwritten Recognisation/Handwritten_Recognisation.keras"
 
 # Load the model
 model = tf.keras.models.load_model(model_path)
